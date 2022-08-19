@@ -1,0 +1,449 @@
+.main {
+    overflow: hidden;
+}
+
+.header {
+    background-color: #000;
+    clear: both;
+    z-index: 2;
+}
+
+.nav-item .nav-link::after {
+    content: "";
+    background-color: #fff;
+}
+
+.nav-item .nav-link:hover {
+    color: white;
+}
+
+.logo_pink {
+    display: block;
+}
+
+.form-control {
+    border-radius: 20px;
+    padding: 9px 20px;
+}
+
+/* CONTENT */
+.main_content {
+    margin-top: 40px;
+}
+
+.char2 {
+    font-size: 35px;
+}
+
+.char3 {
+    font-size: 35px;
+}
+
+.char4 {
+    font-size: 35px;
+}
+
+.separate {
+    width: 100%;
+    margin: 30px 0;
+    background-color: #000;
+    height: 3px;
+}
+
+
+.main_content-header h1 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.today_news {
+    margin-top: 20px;
+}
+
+.news_hot-potato {
+    padding: 0;
+}
+
+.news-col-1,
+.news-col-2,
+.news-col-mini {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.news-col-1,
+.news-col-2,
+.news-col-mini
+
+.news-col-1 {
+    height: 490px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)) , url(../img/News_page/pic1.jpg);
+   /*  -webkit-filter: blur(5px); */
+    background-color: rgba(0,0,0, 0.5); 
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.news-col-2 {
+    height: 263px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)) , url(../img/News_page//dalat_more-hot.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    padding-right: 0;
+    position: relative;
+
+}
+
+.row-mini-col {
+    margin-top: 10px;
+}
+
+.news-col-mini {
+    width: 100%;
+    height: 216px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    padding: 0;
+    position: relative;
+}
+
+.news-col-mini.news-col-mini-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)) , url(../img/News_page/5homestay.jpg);
+}
+
+.news-col-mini.news-col-mini-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)) , url(../img/News_page/dalat-more-hot.jpg);
+}
+
+
+.news-box {
+    position: absolute;
+    top: 70%;
+} 
+
+.news-col-2 .news-box{
+    top: 55%
+}
+
+.news-col-mini .news-box {
+    top: 20%
+}
+
+.news-box .news-title {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 7px 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.news-box .news-desc {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+.news-col-2 .news-title {
+    font-size: 10px;
+}
+
+.news-col-2 .news-desc  {
+    font-size: 20px;
+}
+
+.news-col-mini .news-title {
+    font-size: 10px;
+}
+
+.news-col-mini .news-desc  {
+    font-size: 20px;
+    text-align: center;
+}
+
+.no-padding1.col-lg-6 {
+    padding-right: 6px;
+}
+
+.col-lg-6.no-padding2 {
+    padding-left: 6px;
+}
+
+.main_content-section {
+    font-size: 35px;
+    margin: 30px 0;
+    color: #000;
+    font-weight: 500;
+}
+
+.news-container {
+    margin-bottom: 35px;
+}
+
+.news-image {
+    display: block;
+    height: 257px;
+    width: 100%;
+    padding-left: 0;
+    text-decoration: none;
+    background-image: url(../img/News_page/flower\ homestay.jpg);
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+}
+
+.news-image1 {
+    background-image: url(../img/News_page/cogaianduahau.jpg);
+}
+
+.news-image2 {
+    background-image: url(../img/News_page/coupple.jpg);
+}
+
+.news-image3 {
+    background-image: url(../img/News_page/cogaidocsach.jpg);
+}
+
+.news-image4 {
+    background-image: url(../img/News_page/cogaimacaodai.jpg);
+}
+
+.news-image5 {
+    background-image: url(../img/News_page/vintage.jpg);
+}
+
+.news-image6 {
+    background-image: url(../img/News_page/changtaichesach.jpg);
+}
+
+.news-image span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    background-color: #000;
+    padding: 5px 10px;
+}
+
+.news-sub {
+}
+
+.news-sub h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+
+.news-sub h3 a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.news-post_meta {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #a0a0a0;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: auto;
+}
+
+.news_meta_author {
+    margin-right: 10px;
+}
+
+.meta_author-link {
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.meta_author-link:hover {
+    opacity: 0.8;
+    color: #000;
+}
+
+.news_meta_coment,
+.news_meta_date {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.news_meta_coment ion-icon,
+.news_meta_date ion-icon {
+    font-size: 15px;
+    color: #525252;
+    position: relative;
+    top: 2px;
+}
+
+.news_meta_excerpt p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.news_meta_excerpt-link {
+    width: 10px;
+    height: 5px;
+    padding: 8px 15px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    border: 2px solid #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.news_meta_excerpt-link:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+/* SEARCH COL */
+
+.news-search {
+    margin-top: 40px;
+    width: 345px;
+    position: relative;
+}
+
+.news-search input {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 4px 5px;   
+}
+
+.news-search-icon {
+    position: absolute;
+    right: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 500;
+    color: #000;
+}
+
+.news-related {
+    margin-top: 20px;
+}
+
+.news-related-link {
+    display: block;
+    text-decoration: none;
+    color: #616161;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.news-related-link:hover {
+    transition-delay: 0.1s;
+    color: #fff;
+    background-color: #000;
+}
+
+.news-related-link  {
+    font-size: 13px;
+}
+
+.news-pagination span{
+    font-size: 13px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 2px 7px;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.news-pagination span:hover {
+    opacity: 0.7;
+}
+
+.news-pagination span.active{
+    color: #fff;
+    background: #000;
+}
+
+/* FOOTER */
+/* LGBT _SUGGEST */
+
+.lgbt_suggest {
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+}
+
+.lgbt_heading {
+    padding-top: 20px;
+    margin: 15px 0;
+}
+.char1{
+    color: red;
+    font-size: 40px;
+}
+.char2{
+    color: orange;
+    font-size: 20px;
+}
+.char3{
+   color: yellow;
+   display: inline-block;
+   transform: rotate(20deg);
+}
+.char4{
+    color: green;
+    display: inline-block;
+    transform: rotateY(200deg);
+}
+.char5{color: blue}
+.char6{
+    color: blue;
+    display: inline-block;
+    transform: rotateY(200deg);
+}
+.char7{color: purple}
+.char8{
+    display: inline-block;
+    transform: translateY(10px);
+    color: red
+}
+.char9{
+    display: inline-block;
+   transform: rotate(20deg);
+    color: orange
+}
+.char10{color: yellow}
+.char11{color: green}
+
+
+.lgbt-meaning {
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/* END LGBT */

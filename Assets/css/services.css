@@ -1,0 +1,364 @@
+ion-icon {
+    position: relative;
+    top: 1px;
+}
+
+
+.header {
+    background-color: #f6f8f7;
+}
+
+.nav-item .nav-link::after {
+    content: "";
+    background-color: var(--primary-color);
+}
+
+.nav-item .nav-link:hover {
+    color: black;
+}
+
+.logo_pink {
+    display: block;
+}
+
+
+
+.join_btn {
+    margin-left: 10px;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* MAIN CONTENT */
+.main_content {
+    margin-top: 120px;
+}
+
+.suggested_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: scroll;
+}
+
+.suggested_container::-webkit-scrollbar {
+    display: none;
+}
+
+.suggested_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.suggested_item {
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #dddddd;
+    padding: 6px 0;
+    margin: 0 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sort_width {
+    min-width: 60px;
+}
+
+.md-width {
+    min-width: 90px;
+}
+
+.lg-width {
+    min-width: 150px;
+}
+
+.lgx-width {
+    min-width: 230px;
+}
+
+.suggested_item:hover {
+    border-color: #000;
+}
+
+.suggested_item ion-icon {
+    position: relative;
+    top: 3px;
+}
+.services-separate {
+    height: 30px;
+    width: 1px;
+    background-color: #ddd;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+.product_container-heading {
+    margin-bottom: 20px;
+}
+
+.product_heading {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.product_desc span {
+    font-weight: 600;
+}
+
+/* PRODUCT */
+
+.product_container {
+    margin-top: 10px;
+}
+
+.product_item{
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.product_item:hover {
+    color: inherit;
+}
+
+.product_item:hover {
+    cursor: pointer;
+}
+
+
+.product_item_room-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.product_item_room-image img {
+    width: 100%;
+    height: 100%;
+    transition: 1.4s ease;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.room_type {
+    color: #7f7688;
+    display: block;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.room_type-icon {
+    margin-right: 10px;
+    float: right;
+    font-size: 14px;
+}
+
+.room_type-icon ion-icon{
+    color: var(--primary-color);
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.product_name {
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-height: 20px;
+    height: 20px;
+    margin: 0 0 3px 5px;
+    font-weight: 400;
+}
+
+.room_cost {
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+/* PAGINATION */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination span {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 4px 0;
+    text-align: center;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.pagination span.active {
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+}
+
+.product_pagination-icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.product_pagination-icon:first-child {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.product_pagination-icon:last-child {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.product_pagination-icon ion-icon{
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  top: 3px;
+}
+
+/* EXPERIENCE */
+.related_experiences {
+    margin-top: 40px;
+}
+
+.related_ex_item {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.related_experiences > h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.ex_item-image {
+    max-width: 213px;
+    height: 290px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+    transition: ease-in 0.7s;
+}
+
+.ex_item-image:hover {
+    cursor: pointer;
+}
+
+.bg-1 {
+    background-image: url(../img/Rooms/hanoi_food1.jpg)
+}
+
+.bg-1:hover {
+    background-image: url(../img/Rooms/hanoi_food2.jpg)
+
+}
+
+.bg-2 {
+    background-image: url(../img/Rooms/nhiepanhgiacanhan1.jpeg);
+}
+
+.bg-2:hover {
+    background-image: url(../img/Rooms/nhiepanhgiacanhan2.jpeg);
+}
+
+.bg-3 {
+    background-image: url(../img/Rooms/Hoihoahanoi1.jpg);
+}
+
+.bg-3:hover {
+    background-image: url(../img/Rooms/Hoihoahanoi2.jpg);
+}
+
+.bg-4 {
+    background-image: url(../img/Rooms/chuphinhdemtaihanoi1.jpeg);
+}
+
+.bg-4:hover {
+    background-image: url(../img/Rooms/chuphinhdemtaihanoi2.jpeg);
+}
+
+.bg-5 {
+    background-image: url(../img/Rooms/dulichsangtrong1.jpeg);
+}
+
+.bg-5:hover {
+    background-image: url(../img/Rooms/dulichsangtrong2.jpeg);
+
+}
+
+.ex_item-image_icon {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: rgb(211, 202, 202);
+}
+
+.ex_item-image_icon ion-icon {
+    font-size: 25px;
+}
+
+.ex_item-judge {
+    margin-top: 5px;
+}
+
+.ex_item-judge {
+    font-size: 14px;
+}
+
+.ex_item-judge_icon ion-icon {
+    margin-right: 3px;
+    color: var(--primary-color);
+}
+
+.ex_item-judge-number {
+    color: rgb(141, 135, 135);
+}
+
+.ex_item-name {
+    margin-bottom: 0;
+    width: 80%;
+    line-height: 16px;
+    display: -webkit-box;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 20px;
+}
+
+.ex_item-cost {
+    font-weight: 600;
+}
+
+.ex_item-cost span {
+    font-weight: 400;
+}
+
+.read-more {
+    display: block;
+    text-align: right;
+    margin-top: 30px;
+    font-size: 16px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.read-more:hover {
+    color: var(--primary-color);
+    opacity: 0.7;
+}
+

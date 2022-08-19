@@ -1,0 +1,334 @@
+/* TABLET */
+@media (min-width: 576px) and (max-width: 991px) {
+    .discovery_img .discovery_news-desc {
+        font-size: 20px;
+        width: 270px;
+    }
+
+    .about-us_img {
+        margin-top: 20px;
+    }
+
+    .news_hot-potato {
+        margin-bottom: 14px;
+    }
+
+    .news-image {
+        height: 200px;
+    }
+
+    .news-box .news-desc {
+        font-size: 20px;
+    }
+
+    .news-col-2 .news-desc  {
+        font-size: 15px;
+    }
+
+    .news-col-mini .news-desc  {
+        font-size: 12px;
+    }
+
+    .news-sub h3 {
+        font-size: 19px;
+        font-weight: 700;
+        margin: 0 0 5px;
+    }
+
+    .news-post_meta {
+        font-size: 9px;
+    }
+
+    .news_meta_excerpt {
+        font-size: 12px;
+    }
+
+    .news-related-link {
+        margin-right: 5px;
+        width: 230px;
+    }
+    
+    .none-mobile-tablet {
+        display: none;
+    }
+
+    .news-search {
+        width: 100%;
+    }
+
+    .none-lg {
+        display: block;
+    }
+
+    .room-images_container {
+        margin-bottom: 20px;
+    }
+
+    .room-price_item {
+        width: 100%;
+    }
+
+    .price_item-desc {
+        font-size: 16px;
+    }
+
+    .judge_input {
+        width: 50%;
+    }
+
+    .room-related_item {
+        margin-bottom: 20px;
+    }
+
+    .margin-top-certificate {
+        margin-top: 20px;
+    }
+
+    .collapse  {
+        flex: inherit;
+    }
+
+    .image-box {
+        height: 300px;
+
+    } 
+
+    .back-pages {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .none-padding {
+        padding: 0;
+    }
+
+    .join_btn  {
+        margin-top: 10px;
+    }
+
+    .company-pr_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .content_endow {
+        margin-top: 40px;
+    }
+
+    .content_endow-item {
+        margin: 15px 0;
+    }
+
+    .company-app-dowload {
+        width: 150px;
+        height: 40px;
+    }
+
+   .about-us_img {
+    margin-top: 20px;
+   }
+
+    .none-lg {
+    display: block;
+    }
+
+    .none-mobile-tablet {
+        display: none;
+    }
+
+    .news-search {
+        width: 100%;
+    }
+
+    .news_share-flatform span{
+        display: none;
+    }
+
+    .news-detail_big-pic.container h1 {
+        width: 70%;
+    }
+
+    .none-mobile {
+        display: none;
+    }
+
+    .news-col-1 {
+        margin-bottom: 10px;
+    }
+
+    .news-col-2 {
+        padding: 0;
+    }
+
+    .no-padding2 {
+        padding-right: 0;
+    }
+
+    .no-padding1 {
+        padding-left: 0;
+    }
+
+
+    /* ROOMS */
+    .host_avatar {
+        right: -14%;
+    }
+
+    .room-host_container {
+        margin-top: 10px;
+    }
+
+    .services_booking-btn {
+        width: 100%;
+    }
+
+    .sumary_list {
+        text-align: center;
+    }
+
+    .sumary_text h2 {
+        text-align: center;
+    }
+
+    .read-more {
+        font-size: 17px;
+    }
+
+    .room-price_list {
+        padding-left: 0;
+    }
+
+    .room-price_item {
+        width: 100%;
+    }
+
+    .price_item-desc {
+        font-size: 16px;
+    }
+
+    .room-related_item {
+        margin-bottom: 5px;
+    }
+
+    .footer_qr-code,
+    .footer_app-dow {
+        width: 30%;
+    }
+
+    .footer_qr-code {
+        margin-left: 75px;
+        float: left;
+    }
+
+    .footer_app-dow {
+        float: right;
+        margin-right: 80px;
+    }
+
+    .footer_qr-code img{
+        width: 80%;
+    }
+
+    .footer_app-dow img  {
+        width: 100%;
+    }
+
+    .footer-download {
+        margin-bottom: 20px;
+    }
+
+    .judge_input {
+        width: 50%;
+    }
+
+    .news-col-mini .news-desc {
+        font-size: 14px;
+    }
+
+    .main_information-item {
+        display: block;
+    }
+
+    .company_pics-list {
+        display: block;
+    }
+
+    .company_pics-list li{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .company_pics-list li img {
+        object-fit: cover;
+    }
+
+    .transform-li-pic {
+        transform: translateX(-10px);
+    }
+
+    .discovery_img .discovery_news-desc {
+        width: 300px;
+        font-size: 23px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .room-judge_item {
+        font-size: 10px;
+    }
+
+    .host_desc_heading h3 {
+        font-size: 17px;
+    }
+
+    .host_desc_heading-include {
+        font-size: 14px;
+    }
+
+    .host_avatar {
+        right: -20%;
+    }
+
+    .room-ralated_image  {
+        height: 34vh;
+    }
+
+    .news-related-post-btn::before{
+        width: 45%;
+    }
+
+    .news-related-post-btn::after{
+        width: 43.5%;
+    }
+
+    .image-box {
+        height: 400px;
+
+    }
+
+    .services-booking-day{
+        width: 100%;
+    }
+
+    .judge-user-star-box{
+        display: block;
+    }
+
+    .back-pages {
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .col-lg-2-4 {
+        flex: 0 0 auto;
+        width: 20%;
+    }   
+    
+    .collapse  {
+        flex: inherit;
+    }
+}

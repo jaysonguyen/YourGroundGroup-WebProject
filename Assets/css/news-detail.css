@@ -1,0 +1,369 @@
+
+.news-detail_big-pic {
+    background-image: url(../img/News_page/dalat_more-hot.jpg);
+    height: 60vh;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;  
+}
+
+.back-pages {
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+
+.news-detail_big-pic h1 {
+    margin: 0 0 0 30px;
+    width: 60%;
+    background-color: #fff;
+    text-align: end;
+    position: absolute;
+    text-align: left;
+    text-transform: none;
+    bottom: 0;
+}
+
+.news-detail_container {
+    margin-top: 30px;
+}
+
+.news-detail_container {
+    color: #a0a0a0;
+}
+
+.news-detail_container-link.company {
+    color: #000;
+    margin-right: 25px;
+    position: relative;
+}
+
+.news-detail_container-link.company::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    width: 10px;
+    height: 1px;
+    background-color: #a0a0a0;
+}
+
+.news-detail_container-link {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 14px;
+}
+
+.news-sharing_container {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.news_share-count {
+    margin-right: 20px;
+    position: relative;
+}
+
+.counts {
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+.news_share-count span {
+    font-size: 12px;
+}
+
+.views_share-counts::after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #e0e0e0;
+    display: block;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -2px;
+    transform: rotate(15deg);
+    margin-right: -18px;
+    
+}
+
+.news_share-flatform {
+    width: 254px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 40px;
+    text-align: center;
+}
+
+.news_share-flatform ion-icon {
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+}
+
+.news_share-flatform.facebook {
+    background-color: #45629f;
+    margin-left: 18px;
+}
+
+.news_share-flatform.twitter {
+    background-color: #5eb2ef;
+}
+
+
+.news-detail_content-para {
+    color: #000;
+    margin-bottom: 0;
+}
+
+.detail_content-image {
+    width: 95%;
+    height: auto;
+    vertical-align: middle;
+    margin: 10px 0 10px;
+}
+
+.detail_content-image.full-width {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.news-detail_content-heading {
+    color: #000;
+
+}
+
+.news-detail-section {
+    margin-bottom: 30px;
+}
+
+.news-related-tags {
+    margin-top: 30px;
+}
+
+.news-related-tag {
+    display: inline-block;
+    font-size: 12px;
+    color: #616161;
+    background-color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 8px;
+    margin: 0 3px 6px 0;
+    text-rendering: auto;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.news-related-tag:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+
+/* RELATED POST */
+.news-related-post {
+    margin-top: 30px;
+}
+
+.post-separated {
+    width: 100%;
+    background-color: #eee;
+    height: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.post-separated::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    background-color: #000;
+}
+
+.post-item_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_content-text {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.item_content-text-link_heading {
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.item_content-text-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: #8b8b8b;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.item_content-text-link_heading:hover,
+.item_content-text-link:hover {
+    color: inherit;
+}
+
+.post-item_content img{
+    min-width: 90px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.post-item_content:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.news-related-post-btn {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.news-related-post-btn::before{
+    content: "";
+    width: 46%;
+    height: 1px;
+    position: absolute;
+    border-bottom: 1px solid #eee;
+    left: -10px;
+    top: 50%;
+    background-color: #000;
+}
+
+.news-related-post-btn::after{
+    content: "";
+    width: 46%;
+    height: 1px;
+    position: absolute;
+    border-bottom: 1px solid #eee;
+    right: -12px;
+    top: 50%;
+    background-color: #000;
+}
+
+.news-related-post-btn button:focus  {
+    border: 2px solid #000;
+}
+
+.news-related-post-btn button{
+    width: 34px;
+    height: 30px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    color: #000;
+    margin-left: 5px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.post-btn-icon {
+    font-style: 14px;
+    font-weight: 400;
+}
+
+.current-news-tag {
+    margin-top: 30px;
+}
+
+.current-news-tag span {
+    font-size: 14px;
+}
+
+.news-nex-post {
+    margin-top: 30px;
+}
+
+.news-nex-post h3{
+    margin-bottom: 15px;
+
+}
+
+.none-lg {
+    display: none;
+}
+/* PAGINATION */
+/* FOOTER */
+/* LGBT _SUGGEST */
+
+.lgbt_suggest {
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+}
+
+.lgbt_heading {
+    padding-top: 20px;
+    margin: 15px 0;
+}
+.char1{
+    color: red;
+    font-size: 40px;
+}
+.char2{
+    color: orange;
+    font-size: 20px;
+}
+.char3{
+   color: yellow;
+   display: inline-block;
+   transform: rotate(20deg);
+}
+.char4{
+    color: green;
+    display: inline-block;
+    transform: rotateY(200deg);
+}
+.char5{color: blue}
+.char6{
+    color: blue;
+    display: inline-block;
+    transform: rotateY(200deg);
+}
+.char7{color: purple}
+.char8{
+    display: inline-block;
+    transform: translateY(10px);
+    color: red
+}
+.char9{
+    display: inline-block;
+   transform: rotate(20deg);
+    color: orange
+}
+.char10{color: yellow}
+.char11{color: green}
+
+
+.lgbt-meaning {
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/* END LGBT */

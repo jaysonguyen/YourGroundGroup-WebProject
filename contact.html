@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Ground - Khám phá ngay!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="./Assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./Assets/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+  <link rel="stylesheet" href="./Assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Assets/css/contact.css">
+  <link rel="stylesheet" href="./Assets/css/responsive.css">
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="container-fuild">
+      <div id="header" class="header fixed-top">
+        <div id="navbar" class="navbar navbar-expand-lg navbar-light header_nav">
+          <div class="container">
+            <a class="navbar-brand" href="./index.html">
+              <img class="logo_pink" src="./Assets/img/Logo/Logo Big.png" alt="" width="70" height="70">
+            </a>
+            <button id="navbar_btn" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link header_nav-link active" aria-current="page" href="./index.html">Trang
+                    chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./services.html">Dịch Vụ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./news.html">Tin Tức</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./contact.html">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./news.html">Tham Quan</a>
+                </li>
+              </ul>
+              <button class="join_btn ml-lg-3">Join Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_slider">
+          <a href="./services.html" class="back-pages">
+            <ion-icon name="chevron-back-circle-outline"></ion-icon>
+            Trở lại
+          </a>
+          <a><img src="./Assets/img/ridehorse.jpeg" alt="" srcset=""></a>
+          <h3>CONTACT</h3>
+        </div>
+        <div class="container">
+          <div id="tabs" class="tabs_container">
+            <ul class="tab_list">
+              <li data-value=".information" class="active">Thông Tin</li>
+              <li data-value=".located">Địa Chỉ</li>
+              <li data-value=".form-contact">Liên Hệ</li>
+              <li data-value=".gallery">Thành Viên</li>
+              <li data-value=".review">Chi nhánh</li>
+            </ul>
+            <div class="tab_contaier-area">
+              <div class="information active">
+                <h2 class="information_heading">Your Ground</h2>
+                <ul class="information_star-list">
+                  <li>
+                    <ion-icon name="star"></ion-icon>
+                  </li>
+                  <li>
+                    <ion-icon name="star"></ion-icon>
+                  </li>
+                  <li>
+                    <ion-icon name="star"></ion-icon>
+                  </li>
+                  <li>
+                    <ion-icon name="star"></ion-icon>
+                  </li>
+                  <li>
+                    <ion-icon name="star"></ion-icon>
+                  </li>
+                  <li class="review_numbers">(100 Đánh giá)</li>
+                </ul>
+                <p class="information_introduction">
+                  Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
+                  varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+                  ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                  rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,
+                  luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien
+                  ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
+                  leo.
+                </p>
+
+                <ul class="infor_nav-list">
+                  <li><a href="#">
+                      <ion-icon name="calendar"></ion-icon> 1
+                    </a></li>
+                  <li><a href="#">
+                      <ion-icon name="person"></ion-icon> 13+ Age
+                  </li></a>
+                  <li><a href="#">
+                      <ion-icon name="location"></ion-icon>
+                  </li></a>
+                </ul>
+
+                <ul class="main_information-list">
+                  <li class="main_information-item">
+                    <h6>Công Ty</h6>
+                    <a href="#">Your Ground</a>
+                  </li>
+                  <li class="main_information-item">
+                    <h6>Địa Chỉ</h6>
+                    <p href="#">Su Van Hanh, Quận 10, Tp. Hồ Chí Minh</p>
+                  </li>
+                  <li class="main_information-item">
+                    <h6>Giờ Mở Cửa</h6>
+                    <p href="#">Approximately 8.30AM</p>
+                  </li>
+                  <li class="main_information-item">
+                    <h6>Giờ Đóng Cửa</h6>
+                    <p href="#"> Approximately 7:00PM</p>
+                  </li>
+                  <li class="main_information-item">
+                    <h6>Dịch Vụ</h6>
+                    <p href="#">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      Chỗ ở 5 sao
+                    </p>
+                    <p href="#">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      Bữa sáng 5 sao
+                    </p>
+                    <p href="#">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      Giới thiệu địa điểm du lịch
+                    </p>
+                  </li>
+                </ul>
+
+                <h3 class="content_heading content_heading_endow ">HÌNH ẢNH CỦA CHÚNG TÔI</h3>
+                <p clas="content_desc">Không gian làm việc thoáng mát, sang trọng, hiện đại, với những nhân viên năng
+                  động đến từ nhiều nơi trên thế giới,
+                  liên kết với các doanh nghiệp trong và ngoài nước.
+                </p>
+                <ul class="company_pics-list">
+                  <li>
+                    <img src="./Assets/img/company.jpg" alt="" srcset="">
+                  </li>
+                  <li class="transform-li-pic">
+                    <img src="./Assets/img/company2.jpg" alt="" srcset="">
+                  </li>
+                  <li>
+                    <img src="./Assets/img/company3.jpg" alt="" srcset="">
+                  </li>
+                </ul>
+              </div>
+              <div class="located">
+                <h2 class="information_heading">Địa chỉ</h2>
+                <p>Địa chỉ Trụ sở: Tòa nhà HUFLIT, 828 Sư Vạn Hạnh, Phường 13, Quận 10, Thành phố Hồ Chí Minh.</p>
+                <div class="located_map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62711.25841092407!2d106.63247557910154!3d10.776525000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fdf14cf6ff3%3A0x1e66d5fe08be7d06!2zxJDhuqFpIGjhu41jIE5nb-G6oWkgbmfhu68gVGluIGjhu41j!5e0!3m2!1svi!2s!4v1638158942755!5m2!1svi!2s"
+                    width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="located_history">
+                  <h2 class="information_heading">Sơ lược</h2>
+                  <p>Địa chỉ Trụ sở trước đây: 155 Sư Vạn Hạnh (nối dài), Phường 13, Quận 10, Thành phố Hồ Chí Minh.<br>
+                    Địa chỉ Trụ sở được cập nhật: Tòa nhà HUFLIT 828 Sư Vạn Hạnh, Phường 13, Quận 10, Thành phố Hồ Chí
+                    Minh.
+                  </p>
+                </div>
+              </div> <!-- FINISH LOCATED -->
+              <div class="form-contact">
+                <h2 class="information_heading">Liên Hệ</h2>
+                <div class="container">
+                  <div class="row">
+                    <div class="col col-12 col-sm-12 col-lg-4 contact_col">
+                      <div class="contact-method">
+                        <p class="contact-method-heading">Liên hệ với chung tôi trong những phương thức liên hệ sau</p>
+                        <p class="contact-method-by location">Địa chỉ: Sư Vạn Hạnh, Quận 10</p>
+                        <p class="contact-method-by number">Hotline: <a href="tel:+8435214">+84-123-456</a></p>
+                        <p class="contact-method-by email">Email: <a
+                            href="mail:buleberry.nguyen@gmail.com">yourground@gmail.com</a></p>
+                      </div>
+
+                    </div>
+                    <div class="col col-12 col-sm-12 col-lg-8 contact_col">
+                      <p class="contact-method-heading">Gửi mail cho chúng tôi</p>
+                      <div class="contact-form">
+                        <form id="contact-form" action="" method="get" accept="utf-8">
+                          <fieldset>
+                            <div class="row">
+                              <div class="col col-12 col-sm-12 col-lg-6">
+                                <div class="contact-form-input">
+                                  <!-- <label for="">Name</label> -->
+                                  <input type="text" name="name" id="" placeholder="Tên*" required>
+                                </div>
+                                <div class="contact-form-input">
+                                  <!-- <label for="">E-mail</label> -->
+                                  <input type="email" name="email" id="" placeholder="E-mail*" required>
+                                </div>
+                                <div class="contact-form-input">
+                                  <!-- <label for="">Telephone</label> -->
+                                  <input type="text" name="phonenumber" id="" placeholder="SĐT*" required>
+                                </div>
+                              </div>
+                              <div class="col col-12 col-sm-12 col-lg-6">
+                                <div class="contact-form-input comment-input">
+                                  <!--   <label for="">Comment</label> -->
+                                  <input type="text" name="comment" id="" placeholder="Nội dung*" required>
+                                </div>
+                                <button class="mail-submit" type="submit">Gửi mail</button>
+                              </div>
+                            </div>
+                          </fieldset>
+                        </form> <!-- KẾT THÚC FORM -->
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div> <!-- Finish CONTACT -->
+
+
+              <div class="gallery">
+                <h3>Thành viên tham gia đồ án Your Ground</h3>
+                <div class="members_container">
+                  <div class="row">
+                    <div class="col col-12 col-sm-6 col-lg-3 members-margin">
+                      <div class="member__card">
+                        <div class="member__pic">
+                          <img src="./Assets/img/Logo/BuiThiTHanhPhi.jpg" alt="" srcset="">
+                        </div>
+                        <div class="member__name">Bùi Thị Thanh Phi</div>
+                        <div class="member__desc">20DH110262</div>
+                        <div class="member__sm">
+                          <a href="" class="fab fa-facebook-f"></a>
+                          <a href="" class="fab fa-github"></a>
+                          <a href="" class="fab fa-instagram"></a>
+                          <a href="" class="fab fa-youtube"></a>
+                        </div>
+                        <a href="" class="member__contact-btn">Contact Me</a>
+                      </div>
+                    </div><!-- END COLUMN -->
+                    <div class="col col-12 col-sm-6 col-lg-3 members-margin">
+                      <div class="member__card">
+                        <div class="member__pic">
+                          <img src="./Assets/img/Logo/TranVanHung.jpg" alt="" srcset="">
+                        </div>
+                        <div class="member__name">Trần Văn Hùng</div>
+                        <div class="member__desc">20DH111997</div>
+                        <div class="member__sm">
+                          <a href="" class="fab fa-facebook-f"></a>
+                          <a href="" class="fab fa-github"></a>
+                          <a href="" class="fab fa-instagram"></a>
+                          <a href="" class="fab fa-youtube"></a>
+                        </div>
+                        <a href="" class="member__contact-btn">Contact Me</a>
+                      </div>
+                    </div><!-- END COLUMN -->
+                    <div class="col col-12 col-sm-6 col-lg-3 members-margin">
+                      <div class="member__card">
+                        <div class="member__pic">
+                          <img src="./Assets/img/Logo/DuyThang.jpg" alt="" srcset="">
+                        </div>
+                        <div class="member__name">Đào Đoàn Duy Thăng</div>
+                        <div class="member__desc">20DH110174</div>
+                        <div class="member__sm">
+                          <a href="" class="fab fa-facebook-f"></a>
+                          <a href="" class="fab fa-github"></a>
+                          <a href="" class="fab fa-instagram"></a>
+                          <a href="" class="fab fa-youtube"></a>
+                        </div>
+                        <a href="" class="member__contact-btn">Contact Me</a>
+                      </div>
+                    </div><!-- END COLUMN -->
+                    <div class="col col-12 col-sm-6 col-lg-3 members-margin">
+                      <div class="member__card">
+                        <div class="member__pic">
+                          <img src="./Assets/img/Logo/Nguyễn Vũ Thành Nguyên.jpg" alt="" srcset="">
+                        </div>
+                        <div class="member__name">Nguyễn Vũ Thành Nguyên</div>
+                        <div class="member__desc">20DH112108</div>
+                        <div class="member__sm">
+                          <a href="" class="fab fa-facebook-f"></a>
+                          <a href="" class="fab fa-github"></a>
+                          <a href="https://www.instagram.com/sontungmtp/" class="fab fa-instagram"></a>
+                          <a href="" class="fab fa-youtube"></a>
+                        </div>
+                        <a href="" class="member__contact-btn">Contact Me</a>
+                      </div>
+                    </div><!-- END COLUMN -->
+                    <h5 class="member-name">Cảm ơn vì đã ghé trang web của chúng tôi
+                      <ion-icon name="heart"></ion-icon>
+                    </h5>
+                  </div>
+                </div>
+                <div class="review">
+                  <h3>Danh sách chi nhánh</h3>
+                  <table id="table1">
+                    <thead>
+                      <tr class="data-head">
+                        <th>Tên</th>
+                        <th>Quản lý</th>
+                        <th>Số điện thoại</th>
+                        <th>Địa chỉ</th>
+                      </tr>
+                    </thead>
+                    <tbody class="review_body">
+                      <tr>
+                        <td>Your Ground HCM</td>
+                        <td>Nguyễn Vũ Thành Nguyên</td>
+                        <td>03365448</td>
+                        <td>Sư Vạn Hạnh</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Đồng Nai</td>
+                        <td>Nguyễn Vũ THành Nguyên</td>
+                        <td>012345678</td>
+                        <td>03/ Phường A Đồng Nai</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Đà Nẵng</td>
+                        <td>Trần Văn Hùng</td>
+                        <td>012345678</td>
+                        <td>03/ Phường A Đà Nẵng</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Hội An</td>
+                        <td>Bùi Thị Thanh Phi</td>
+                        <td>0123456</td>
+                        <td>Thành Phố Hội An</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Sapa</td>
+                        <td>Đào Đoàn Duy Thăng</td>
+                        <td>09876542</td>
+                        <td>Thành Phố Sapa</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Bắc Ninh</td>
+                        <td>NGuyễn Văn A</td>
+                        <td>012345655</td>
+                        <td>03/12/23/Bắc Ninh</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Ninh Bình</td>
+                        <td>NGuyễn Văn B</td>
+                        <td>012345655</td>
+                        <td>03/12/23/Ninh Bình</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Bình Thuận</td>
+                        <td>NGuyễn Thị C</td>
+                        <td>012345655</td>
+                        <td>03/12/23/Bắc Ninh</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Bến Tre</td>
+                        <td>NGuyễn Thị D</td>
+                        <td>012345655</td>
+                        <td>03/12/23/ Bến Tre</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Cao Bằng</td>
+                        <td>NGuyễn Văn A</td>
+                        <td>012345655</td>
+                        <td>03/12/23/ Cao Bằng</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Tây Ninh</td>
+                        <td>NGuyễn Thị G</td>
+                        <td>012345655</td>
+                        <td>03/12/23/ Tây Ninh</td>
+                      </tr>
+                      <tr>
+                        <td>Your Ground Bình Dương</td>
+                        <td>NGuyễn Văn F</td>
+                        <td>012345655</td>
+                        <td>03/12/23/ Bình Dương</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <footer class="text-center text-lg-start text-muted">
+            </section>
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                  <div class="col-md-4 col-sm-4 col-lg-2 col-xl-3 mb-2">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      <span class="footer-logo-image">
+                        <img src="./Assets/img/Logo/Logo big dark.png" alt="" srcset="">
+                      </span>
+                      Your Ground
+                    </h6>
+                    <a class="footer_contact message">
+                      <span class="contact-method">
+                        <ion-icon name="logo-wechat"></ion-icon>
+                        Messenger
+                      </span>
+                      http://m.me/yourground
+                    </a>
+                    <a class="footer_contact call">
+                      <span class="contact-method">
+                        <ion-icon name="call"></ion-icon>
+                        Call center
+                      </span>
+                      123451237(Viet Nam)
+                    </a>
+                  </div>
+
+                  <div class="col-md-2 col-sm-4 col-lg-2 col-xl-2 mx-auto mb-2">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Top Khách Sạn - Homestay
+                    </h6>
+                    <p>
+                      <a href="#!" class="footer_about-link">JW Marriott</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="footer_about-link">Reverie Saigon</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="footer_about-link">Vinpearl Resort</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="footer_about-link">Homestay Đà Lạt</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="footer_about-link">Homestay Phú Quốc</a>
+                    </p>
+                  </div>
+
+                  <div class="col-md-3 col-sm-4 col-lg-2 col-xl-2 mx-auto mb-2">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Dịch vụ ưa thích
+                    </h6>
+                    <p>
+                      <a href="#!" class="footer_about-link">Bữa sáng tận phòng</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="footer_about-link">Dùng bữa tại biển</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="footer_about-link">Ăn sáng trên hồ bơi</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="footer_about-link">Sân Golf & Tennis</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="footer_about-link">Dịch vụ Spa</a>
+                    </p>
+                  </div>
+
+                  <div class="col-md-4 col-sm-4 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-2">
+
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Về chúng tôi
+                    </h6>
+                    <a href="#" class="footer_about-link">Blog</a>
+                    <a href="#" class="footer_about-link">Sư Vạn Hạnh, Quận 10, Tp, HCM</a>
+                    <a href="#" class="footer_about-link">Email: yourground@gmail.com</a>
+                    <a href="#" class="footer_about-link">Hotline: +84 123 456</a>
+                    <a href="#" class="footer_about-link">Cơ hôi nghề nghiệp</a>
+                    <a href="#" class="footer_about-link">Tạp chí du lịch</a>
+                  </div>
+
+                  <div class="col col-12 col-sm-4 col-md-4 col-lg-2 col-xl-2 footer-download">
+                    <h6 class="text-uppercase fw-bold mb-4">Tải ứng dụng </h6>
+                    <a href="#" class="footer_about-link footer_qr-code">
+                      <img src="./Assets/img/qr-code.png" alt="" srcset="">
+                    </a>
+                    <a href="#" class="footer_about-link footer_app-dow">
+                      <img src="./Assets/img/appstore_png.png" alt="" srcset="">
+                      <img src="./Assets/img/Google_play-radius.png" alt="" srcset="">
+                    </a>
+                  </div>
+                </div><!-- END ROW -->
+                <div class="row margin-top-certificate">
+                  <div class="col col-12 col-sm-6 col-lg-6">
+                    <div class="secure_transaction">
+                      <h6>SECURE YOUR TRANSACTION</h6>
+                      <div class="row">
+                        <div class="col col-4 col-sm-4 col-lg-4 secure-image">
+                          <img src="./Assets/img/Rooms/visa.svg" alt="" srcset="">
+                        </div>
+                        <div class="col col-4 col-sm-4 col-lg-4 secure-image">
+                          <img src="./Assets/img/Rooms/mastercard.svg" alt="" srcset="">
+                        </div>
+                        <div class="col col-4 col-sm-4 col-lg-4 secure-image">
+                          <img src="./Assets/img/Rooms/maestro.svg" alt="" srcset="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 col-lg-6">
+                    <div class="row">
+                      <div class="col col-12 col-sm-12 col-lg-6 footer-certificate">
+                        <h6>CERTIFICATE</h6>
+                        <div class="certificate-image">
+                          <img src="./Assets/img/Rooms/bct.png" alt="" srcset="">
+                          <img src="./Assets/img/Rooms/dmca.png" alt="" srcset="">
+                        </div>
+                      </div>
+                    </div><!-- CERTIFICATE -->
+                  </div>
+                </div>
+              </div><!-- CERTIFICATE -->
+            </section>
+            <div class="container">
+              <div class="footer-copyright">
+                <p>© 2021 Your Ground. Bản quyền thuộc về Công ty YG Việt Nam. Mọi hành vi sao chép đều
+                  là phạm pháp nếu không có sự cho phép bằng văn bản của chúng tôi.
+                </p>
+                <p>Tòa nhà HUFLIT, Sư Vạn Hạnh, Thành Phố Hồ Chí Minh, Email: yourground@gmail.com, số điện thoai:
+                  01234768
+                </p>
+              </div>
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!--  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!--  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./Assets/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="./Assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" charset="utf8"
+      src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+    <script src="./Assets/js/jquery.validate.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
